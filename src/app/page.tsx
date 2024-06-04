@@ -28,11 +28,17 @@ export default function Home() {
           <Image src={"/scripting.svg"} alt="/" width={300} height={300} />
           <h1 className="max-w-md">
             Interested in collaborating? Feel free to reach out either through
-            the contact form below or directly at <span className="text-third">alxnbusiness1@gmail.com</span>.
+            the contact form below or directly at{" "}
+            <span className="text-third">alxnbusiness1@gmail.com</span>.
           </h1>
         </Wrapper>
         <Contact />
       </section>
+      <footer>
+        <p className="text-center mb-10">
+          &copy; 2024 Naltu Alexandru. All rights reserved.
+        </p>{" "}
+      </footer>
     </>
   );
 }
