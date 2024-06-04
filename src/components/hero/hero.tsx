@@ -1,126 +1,47 @@
 "use client";
-import React, { useCallback } from "react";
+
+import React from "react";
 import Wrapper from "../wrapper/wrapper";
-import Particles from "react-particles";
-import type { Container, Engine } from "tsparticles-engine";
-import { loadSlim } from "tsparticles-slim";
-import { motion } from "framer-motion";
+import { Button } from "../ui/button";
+import { socials } from "@/lib/constants";
+import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
-  const particlesInit = useCallback(async (engine: Engine) => {
-    console.log(engine);
-    await loadSlim(engine);
-  }, []);
-
-  const particlesLoaded = useCallback(
-    async (container: Container | undefined) => {
-      await console.log(container);
-    },
-    []
-  );
-
-  const options: any = {
-    background: {
-      color: {
-        value: "transparent",
-      },
-    },
-    fullScreen: {
-      enable: true,
-      zIndex: -1,
-    },
-    style: {
-      position: "absolute",
-    },
-    fpsLimit: 60,
-    interactivity: {
-      events: {
-        onClick: {
-          enable: true,
-          mode: "push",
-        },
-        onHover: {
-          enable: true,
-          mode: "repulse",
-        },
-        resize: true,
-      },
-      modes: {
-        push: {
-          quantity: 4,
-        },
-        repulse: {
-          distance: 200,
-          duration: 0.4,
-        },
-      },
-    },
-    particles: {
-      color: {
-        value: "#ffffff",
-      },
-      links: {
-        color: "#ffffff",
-        distance: 150,
-        enable: true,
-        opacity: 0.5,
-        width: 1,
-      },
-      collisions: {
-        enable: true,
-      },
-      move: {
-        direction: "none",
-        enable: true,
-        outMode: "bounce",
-        random: false,
-        speed: 2,
-        straight: false,
-      },
-      number: {
-        density: {
-          enable: true,
-          area: 600,
-        },
-        value: 60,
-      },
-      opacity: {
-        value: 0.5,
-      },
-      shape: {
-        type: "circle",
-      },
-      size: {
-        random: true,
-        value: 5,
-      },
-    },
-    detectRetina: true,
-  };
   return (
-    <>
-      <div className="flex absolute  left-0 h-1/2 lg:h-2/3 w-[100vw]">
-        <div className="relative w-full">
-          <Particles
-            init={particlesInit}
-            loaded={particlesLoaded}
-            options={{ ...options }}
-          />
+    <Wrapper className="flex flex-col sm:flex-row sm:justify-between ">
+      <div className="my-10 lg:my-28 flex flex-col gap-4">
+        <h1 className="text-[1.4rem] lg:text-3xl">
+          Hello Friend, My Name Is <span className="text-primary">Alex</span>{" "}
+          <br /> I am a <span className="text-third">Frontend Developer</span>
+        </h1>
+        <div className="flex gap-4">
+          {socials.map((social, i) => (
+            <Link
+              href={social.url}
+              key={i}
+              className="hover:text-third transition-all duration-200 ease-in-out"
+            >
+              <i>{social.icon}</i>
+            </Link>
+          ))}
+        </div>
+        <div className="flex items-center gap-3">
+          <Button className="rounded-full bg-transparent border-2 border-primary">
+            Contact Me
+          </Button>
+          <Button className="rounded-full">Download CV</Button>
         </div>
       </div>
 
-      <Wrapper className=" flex justify-center my-20 lg:my-56">
-        <motion.h1
-          initial={{ opacity: 0, scale: 0.5 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 2, ease: "easeInOut", type: "spring" }}
-          className="text-center max-w-lg sm:text-lg  lg:text-3xl lg:max-w-2xl"
-        >
-          Hi, my name is Alex. I'm a 19-year-old developer who loves coding and
-          building new projects. Nice to meet you!
-        </motion.h1>
-      </Wrapper>
-    </>
+      <Image
+        src="/hellofriend.svg"
+        alt="Hero"
+        width={350}
+        height={300}
+        className="self-center rounded-full"
+      />
+    </Wrapper>
   );
 };
 

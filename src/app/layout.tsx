@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Bungee } from "next/font/google";
+import { Fira_Code } from "next/font/google";
 import "./globals.css";
 
-const inter = Bungee({ subsets: ["latin"], weight: "400" });
+const inter = Fira_Code({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#090029] text-white`}>
+      <body className={`${inter.className} bg-[#0D0D1D] text-white`}>
         {children}
       </body>
     </html>

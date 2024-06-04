@@ -66,12 +66,50 @@
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+.section-1-bg {
+  background-image: url("/herobg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+.custom-shadow {
+  box-shadow: rgba(48, 140, 202, 0.25) 0px 30px 60px -12px inset,
+    rgba(30, 56, 255, 0.3) 0px 18px 36px -18px inset;
+}
+
+.section-3-bg {
+  background-image: url("/skills-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-4-bg {
+  background-image: url("/project-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00b7ff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #eb3d00;
+}
