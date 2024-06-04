@@ -19,7 +19,7 @@ const Projects = () => {
         className="mx-auto mt-10 sm:mt-20 lg:mt-40"
       />
       <Wrapper className="flex justify-center mt-20 mb-36">
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 xl:flex-row">
           {websites.map((website, i) => (
             <motion.div
               initial={{ opacity: 0, y: 100 }}
