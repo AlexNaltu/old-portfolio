@@ -19,6 +19,7 @@ const Hero = () => {
           {socials.map((social, i) => (
             <Link
               href={social.url}
+              target="_blank"
               key={i}
               className="hover:text-third transition-all duration-200 ease-in-out"
             >

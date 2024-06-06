@@ -36,21 +36,34 @@ const Projects = () => {
                 height={400}
                 className="rounded-t-lg"
               />
-              <div className=" p-2 text-xs text-primary  flex flex-col gap-2">
+              <div className=" text-xs text-primary flex justify-between p-2 flex-col h-full gap-3 ">
                 <h1 className="text-lg text-white">{website.title}</h1>
-                <p>{website.description}</p>
-                <Link
-                  href={website.url}
-                  className="text-base text-third underline decoration-primary flex items-center gap-4 hover:text-primary hover:decoration-white duration-200 transition-all ease-linear "
-                >
-                  Live Preview <IoIosArrowRoundForward size={30} />
-                </Link>
-                <Link
-                  href={website.github}
-                  className="text-base text-third underline decoration-primary flex items-center gap-4 hover:text-primary hover:decoration-white duration-200 transition-all ease-linear "
-                >
-                  Github Code <IoIosArrowRoundForward size={30} />
-                </Link>
+                <p className="h-fit">{website.description}</p>
+                <div>
+                  <div>
+                    {website.url && website.url.length > 0 ? (
+                      <Link
+                        href={website.url}
+                        target="_blank"
+                        className="text-base text-third underline decoration-primary flex items-center gap-4 hover:text-primary hover:decoration-white duration-200 transition-all ease-linear "
+                      >
+                        Live Preview <IoIosArrowRoundForward size={30} />
+                      </Link>
+                    ) : (
+                      <h1 className="text-base text-third underline decoration-primary">
+                        No Live Preview Available
+                      </h1>
+                    )}
+                  </div>
+
+                  <Link
+                    target="_blank"
+                    href={website.github}
+                    className="text-base text-third underline decoration-primary flex items-center gap-4 hover:text-primary hover:decoration-white duration-200 transition-all ease-linear "
+                  >
+                    Github Code <IoIosArrowRoundForward size={30} />
+                  </Link>
+                </div>
               </div>
             </motion.div>
           ))}
@@ -61,3 +74,12 @@ const Projects = () => {
 };
 
 export default Projects;
+
+/*  <Link
+                        href={website.url}
+                        target="_blank"
+                        className="text-base text-third underline decoration-primary flex items-center gap-4 hover:text-primary hover:decoration-white duration-200 transition-all ease-linear "
+                      >
+                        Live Preview <IoIosArrowRoundForward size={30} />
+                      </Link>
+                     */

@@ -42,19 +42,19 @@ export const aboutMe = [
 export const socials = [
   {
     icon: <FaFacebook size={30} />,
-    url: "https://www.facebook.com/naltu.alexandru/",
+    url: "https://www.facebook.com/alex.naltu.1/?_rdr",
   },
   {
     icon: <AiFillInstagram size={30} />,
-    url: "https://www.instagram.com/naltu.alexandru/",
+    url: "https://www.instagram.com/imnotalxn/",
   },
   {
     icon: <FaGithub size={30} />,
-    url: "",
+    url: "https://github.com/AlexNaltu",
   },
   {
     icon: <FaLinkedinIn size={30} />,
-    url: "https://www.linkedin.com/in/alexandru-naltu-3a6b3b1b4/",
+    url: "https://www.linkedin.com/in/alex-naltu-2a391a275/",
   },
 ];
 
@@ -147,23 +147,23 @@ export const websites = [
     description:
       "This Website is a portfolio for a photographer. It was built with Next.js, React, TailwindCSS, React-Awesome-Reveal, Email.js, Swiper.js and Shadcn-ui  .",
     image: "/adelinv.png",
-    url: "https://naltu.vercel.app/",
-    github: "",
+    url: "https://www.adelinvisuals.art/",
+    github: "https://github.com/AlexNaltu/adelinvisuals",
   },
   {
     title: "Alxn Store",
     description:
       " This Website is a E-Commerce Store. It was built with T3 Stack , React, Next.js, TailwindCSS, Prisma, Supabase, NextAuth,React-Responsive-Carousel, React-Slick Email.js, Shadcn-ui and Zustand .",
     image: "/store.png",
-    url: "https://naltu.vercel.app/",
-    github: "",
+    url: "",
+    github: "https://github.com/AlexNaltu/alxn_store",
   },
   {
     title: "AnimeAlxn",
     description:
       " This Website is an Anime News Website. It was built with Next.js, React, Sanity CMS, Shadcn-ui and TailwindCSS .",
     image: "/animealxn.png",
-    url: "https://naltu.vercel.app/",
-    github: "",
+    url: "https://animealxn.blog",
+    github: "https://github.com/AlexNaltu/animealxn",
   },
 ];
