@@ -28,10 +28,18 @@ const Hero = () => {
           ))}
         </div>
         <div className="flex items-center gap-3">
-          <Button className="rounded-full bg-transparent border-2 border-primary">
-            Contact Me
-          </Button>
-          <Button className="rounded-full">Download CV</Button>
+          <Link href="#contact">
+            <Button className="rounded-full bg-transparent border-2 border-primary">
+              Contact Me
+            </Button>
+          </Link>
+          <Link
+            href="/alex-naltu-resume.pdf"
+            download={"/alex-naltu-resume-pdf"}
+            target="_blank"
+          >
+            <Button className="rounded-full">Download CV</Button>
+          </Link>
         </div>
       </div>
 
