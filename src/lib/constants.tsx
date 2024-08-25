@@ -150,20 +150,4 @@ export const websites = [
     url: "https://www.adelinvisuals.art/",
     github: "https://github.com/AlexNaltu/adelinvisuals",
   },
-  {
-    title: "Alxn Store",
-    description:
-      " This Website is a E-Commerce Store. It was built with T3 Stack , React, Next.js, TailwindCSS, Prisma, Supabase, NextAuth,React-Responsive-Carousel, React-Slick Email.js, Shadcn-ui and Zustand .",
-    image: "/store.png",
-    url: "",
-    github: "https://github.com/AlexNaltu/alxn_store",
-  },
-  {
-    title: "AnimeAlxn",
-    description:
-      " This Website is an Anime News Website. It was built with Next.js, React, Sanity CMS, Shadcn-ui and TailwindCSS .",
-    image: "/animealxn.png",
-    url: "https://animealxn.blog",
-    github: "https://github.com/AlexNaltu/animealxn",
-  },
 ];
