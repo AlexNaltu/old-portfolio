@@ -61,18 +61,25 @@ export const socials = [
 export const websites = [
   {
     title: "Alxn Store",
-
-    badges: ["Next.js", "React", "TailwindCSS", "Sanity CMS", "Redux"],
+    badges: [
+      "Next.js",
+      "React",
+      "TailwindCSS",
+      "Sanity CMS",
+      "Redux",
+      "Stripe",
+      "Mailchimp",
+      "Clerk",
+      "Email.js",
+      "Fuse.js",
+    ],
     image: "/alxnstore.png",
-    url: "https://www.adelinvisuals.art/",
-    github: "https://github.com/AlexNaltu/adelinvisuals",
+    url: "https://www.alxnstore.shop/",
   },
   {
     title: "Adelin Visuals Photography",
-
     badges: ["Next.js", "React", "TailwindCSS", "Email.js", "Swiper.js"],
     image: "/adelinv.png",
     url: "https://www.adelinvisuals.art/",
-    github: "https://github.com/AlexNaltu/adelinvisuals",
   },
 ];

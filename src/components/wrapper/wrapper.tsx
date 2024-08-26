@@ -8,7 +8,7 @@ interface IWrapper {
 
 const Wrapper = ({ children, className }: IWrapper) => {
   return (
-    <div className={cn("max-w-screen-xl mx-auto px-3 md:px-6", className)}>
+    <div className={cn("max-w-screen-xl mx-auto px-2 md:px-6", className)}>
       {children}
     </div>
   );
