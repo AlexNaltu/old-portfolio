@@ -23,7 +23,7 @@ export default function Home() {
           <section className="flex items-center gap-2">
             <Image src="/logo.png" alt="Hero" width={60} height={60} />
             <div>
-              <h1 className="font-black text-xs">
+              <h1 className="font-black text-xs sm:text-sm md:text-lg">
                 Naltu Alexandru's Portfolio
               </h1>
 
@@ -35,7 +35,7 @@ export default function Home() {
           <div>
             <h3 className="my-3 text-lg font-black">About Me:</h3>
             {aboutMe.map((item, i) => (
-              <div key={i} className="text-xs flex gap-2">
+              <div key={i} className="text-xs flex gap-2 md:text-base">
                 <h4 className="font-semibold">{item.title}</h4>
                 <p>{item.description}</p>
               </div>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <Separator className="mt-4" />
 
-          <p className="my-4 text-sm font-semibold">
+          <p className="my-4 text-sm md:text-base font-semibold">
             Hello, I am Naltu Alexandru, a 19-year-old Frontend Developer based
             in Germany. I am a self-taught developer with a passion for building
             beautiful and responsive websites. I have been coding for 1 year and
