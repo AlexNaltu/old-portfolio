@@ -1,5 +1,6 @@
 import { IconCloudComponent } from "@/components/cloud/icon-cloud";
 import Contact from "@/components/contact/contact-me";
+import { BorderBeam } from "@/components/magicui/border-beam";
 import DotPattern from "@/components/magicui/dot-pattern";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
@@ -51,7 +52,14 @@ export default function Home() {
             learn the basics of web development.
           </p>
           <IconCloudComponent />
-          <div className="bg-white rounded-lg p-1 lg:p-4">
+          <div className="bg-white rounded-lg p-1 lg:p-4 relative ">
+            <BorderBeam
+              size={300}
+              colorFrom="#2F4F4F"
+              colorTo="#2F4F4F"
+              duration={10}
+              borderWidth={2.5}
+            />
             {websites.map((item, i) => (
               <div key={i}>
                 <h3 className="text-lg font-semibold mt-4 flex-wrap">
