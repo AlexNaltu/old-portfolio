@@ -24,7 +24,7 @@ export default function Home() {
             <Image src="/logo.png" alt="Hero" width={60} height={60} />
             <div>
               <h1 className="font-black text-xs sm:text-sm md:text-lg">
-                Naltu Alexandru's Portfolio
+                Naltu Alexandru&apos;s Portfolio
               </h1>
 
               <p className="text-sm">- Based in Germany</p>
