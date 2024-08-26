@@ -63,6 +63,7 @@ export default function Home() {
                       {badge}
                     </Badge>
                   ))}
+                  <Separator className="mt-2 mb-4" />
                 </div>
                 <Image
                   src={item.image}
