@@ -58,94 +58,19 @@ export const socials = [
   },
 ];
 
-export const skills = [
-  {
-    image: "/react.svg",
-    name: "React",
-  },
-  {
-    image: "/nextjs.svg",
-    name: "Next.js",
-  },
-  {
-    image: "/js.svg",
-    name: "JavaScript",
-  },
-  {
-    image: "/ts.svg",
-    name: "TypeScript",
-  },
-  {
-    image: "/tailwind.svg",
-    name: "TailwindCSS",
-  },
-  {
-    image: "/css.svg",
-    name: "CSS",
-  },
-  {
-    image: "/html.svg",
-    name: "HTML",
-  },
-  {
-    image: "/mongo.svg",
-    name: "MongoDB",
-  },
-  {
-    image: "/shadcn.svg",
-    name: "Prisma",
-  },
-  {
-    image: "/sql.svg",
-    name: "PostgreSQL",
-  },
-  {
-    image: "/prisma.svg",
-    name: "SQL",
-  },
-  {
-    image: "/postg.svg",
-    name: "Shadcn-UI",
-  },
-  {
-    image: "/sanity.svg",
-    name: "Sanity CMS",
-  },
-  {
-    image: "/mui.svg",
-    name: "Bootstrap",
-  },
-  {
-    image: "/bootstrap.svg",
-    name: "Zustand",
-  },
-  {
-    image: "/zustand.svg",
-    name: "Material-UI",
-  },
-  {
-    image: "/chakra.svg",
-    name: "Chakra-UI",
-  },
-  {
-    image: "/supa.svg",
-    name: "Supabase",
-  },
-  {
-    image: "/clerk.svg",
-    name: "Clerk Auth",
-  },
-  {
-    image: "/next-auth.svg",
-    name: "NextAuth",
-  },
-];
-
 export const websites = [
   {
-    title: "Adelin Visuals",
-    description:
-      "This Website is a portfolio for a photographer. It was built with Next.js, React, TailwindCSS, React-Awesome-Reveal, Email.js, Swiper.js and Shadcn-ui  .",
+    title: "Alxn Store",
+
+    badges: ["Next.js", "React", "TailwindCSS", "Sanity CMS", "Redux"],
+    image: "/alxnstore.png",
+    url: "https://www.adelinvisuals.art/",
+    github: "https://github.com/AlexNaltu/adelinvisuals",
+  },
+  {
+    title: "Adelin Visuals Photography",
+
+    badges: ["Next.js", "React", "TailwindCSS", "Email.js", "Swiper.js"],
     image: "/adelinv.png",
     url: "https://www.adelinvisuals.art/",
     github: "https://github.com/AlexNaltu/adelinvisuals",
