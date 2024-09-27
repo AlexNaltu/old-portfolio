@@ -11,6 +11,7 @@ import emailjs from "@emailjs/browser";
 import { Button } from "../ui/button";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Wrapper from "../wrapper/wrapper";
 
 // zod schema for form validation
 const userSchema = z.object({
@@ -50,58 +51,65 @@ const Contact = () => {
 
   return (
     <>
-      <div className=" my-10 py-10 px-2 ">
-        <h1 className="text-center mb-10 font-black text-xl uppercase">
-          Contact Me
-        </h1>
-        <form
-          className="max-w-lg mx-auto flex flex-col gap-3"
-          onSubmit={handleSubmit(onSubmit)}
-          ref={ref}
-        >
-          <div className="flex flex-col gap-3">
-            <Label>Name</Label>
-            <Input placeholder="Name" {...register("user_name")} />
-            {errors.name && (
-              <>
-                <span className="text-red-600">
-                  {errors.name.message as React.ReactNode}
-                </span>
-              </>
-            )}
-          </div>
+      <h1 className="uppercase text-xl font-black md:text-2xl lg:text-4xl mb-2">
+        Contact me
+      </h1>
+      <div className="bg-gradient-to-l from-neutral-950 from-50% to-white to-100% w-full h-2 mb-6" />
+      <div className="flex justify-center ">
+        <Wrapper className="flex flex-col gap-4 lg:flex-row lg:justify-between w-full">
+          <form
+            className="max-w-lg lg:max-w-2xl flex flex-col gap-3"
+            onSubmit={handleSubmit(onSubmit)}
+            ref={ref}
+          >
+            <div className="flex flex-col gap-3">
+              <Label>Name</Label>
+              <Input placeholder="Name" {...register("user_name")} />
+              {errors.name && (
+                <>
+                  <span className="text-red-600">
+                    {errors.name.message as React.ReactNode}
+                  </span>
+                </>
+              )}
+            </div>
 
-          <div className="flex flex-col gap-3">
-            <Label>Email</Label>
-            <Input placeholder="Email" {...register("user_email")} />
-            {errors.email && (
-              <>
-                <span className="text-red-600">
-                  {errors.email.message as React.ReactNode}
-                </span>
-              </>
-            )}
+            <div className="flex flex-col gap-3">
+              <Label>Email</Label>
+              <Input placeholder="Email" {...register("user_email")} />
+              {errors.email && (
+                <>
+                  <span className="text-red-600">
+                    {errors.email.message as React.ReactNode}
+                  </span>
+                </>
+              )}
+            </div>
+            <div className="flex flex-col gap-3 items-center my-5">
+              <Label>Message</Label>
+              <p>
+                Please provide additional information that could help me
+                evaluate this opportunity
+              </p>
+              <Textarea
+                placeholder="Your Message"
+                rows={10}
+                {...register("message")}
+              />
+              {errors.message && (
+                <>
+                  <span className="text-red-600">
+                    {errors.message.message as React.ReactNode}
+                  </span>
+                </>
+              )}
+            </div>
+          </form>
+          <div>
+            <p>alxnbusiness1@gmail.com</p>
+            <p>+49 243359 9143</p>
           </div>
-          <div className="flex flex-col gap-3 items-center my-5">
-            <Label>Message</Label>
-            <p>
-              Please provide additional information that could help me evaluate
-              this opportunity
-            </p>
-            <Textarea
-              placeholder="Your Message"
-              rows={10}
-              {...register("message")}
-            />
-            {errors.message && (
-              <>
-                <span className="text-red-600">
-                  {errors.message.message as React.ReactNode}
-                </span>
-              </>
-            )}
-          </div>
-        </form>
+        </Wrapper>
       </div>
     </>
   );

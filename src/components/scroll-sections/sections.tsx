@@ -7,6 +7,8 @@ import Wrapper from "../wrapper/wrapper";
 import { websites } from "@/lib/constants";
 import ProjectsSection from "./projects-section";
 import SkillsSection from "./skills-section";
+import AboutMeSection from "./about-section";
+import Contact from "../contact/contact-me";
 
 const Sections = () => {
   const [currentStepIndex, setCurrentStepIndex] = useState(null);
@@ -32,7 +34,7 @@ const Sections = () => {
         <Step data={1}>
           <div
             style={{
-              margin: "50vh 0",
+              margin: "20vh 0",
               opacity: currentStepIndex === 1 ? 1 : 0.2,
             }}
             className="text-white"
@@ -43,23 +45,23 @@ const Sections = () => {
         <Step data={2}>
           <div
             style={{
-              margin: "50vh 0",
+              margin: "20vh 0",
               opacity: currentStepIndex === 2 ? 1 : 0.2,
             }}
             className="text-white"
           >
-            I'm a Scrollama Step of index 2
+            <AboutMeSection />
           </div>
         </Step>
         <Step data={3}>
           <div
             style={{
-              margin: "50vh 0",
+              margin: "20vh 0",
               opacity: currentStepIndex === 3 ? 1 : 0.2,
             }}
             className="text-white"
           >
-            I'm a Scrollama Step of index 3
+            <Contact />
           </div>
         </Step>
       </Scrollama>

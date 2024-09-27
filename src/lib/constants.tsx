@@ -109,7 +109,7 @@ export const skills = [
     name: "SQL",
   },
   {
-    image: "/skills-icons/postg.svg",
+    image: "/skills-icons/shadcn.svg",
     name: "Shadcn-UI",
   },
   {
