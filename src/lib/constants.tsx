@@ -3,39 +3,20 @@ import { AiFillInstagram } from "react-icons/ai";
 
 export const navLinks = [
   {
-    name: "About",
-    url: "#about",
-  },
-  {
     name: "Projects",
     url: "#projects",
   },
   {
+    name: "Skills",
+    url: "#skills",
+  },
+  {
+    name: "About",
+    url: "#about",
+  },
+  {
     name: "Contact",
     url: "#contact",
-  },
-];
-
-export const aboutMe = [
-  {
-    title: "Name:",
-    description: "Naltu Alexandru",
-  },
-  {
-    title: "Age:",
-    description: "19",
-  },
-  {
-    title: "Languages:",
-    description: "English,German,Romanian",
-  },
-  {
-    title: "Where I live:",
-    description: "Germany",
-  },
-  {
-    title: "Hobbies:",
-    description: "Gaming, Drawing, Gym",
   },
 ];
 
@@ -61,25 +42,106 @@ export const socials = [
 export const websites = [
   {
     title: "Alxn Store",
-    badges: [
-      "Next.js",
-      "React",
-      "TailwindCSS",
-      "Sanity CMS",
-      "Redux",
-      "Stripe",
-      "Mailchimp",
-      "Clerk",
-      "Email.js",
-      "Fuse.js",
-    ],
+    description:
+      "Alxn Store is an e-commerce website that sells various products. For example T-shirts, Hoodies, and Sweatshirts. The website is built with Next.js, React and Sanity Cms.",
+    image: "/alxnstore.png",
+    url: "https://www.alxnstore.shop/",
+  },
+  {
+    title: "MyAnimeNews",
+    description:
+      "MyAnimeNews is a website that displays the latest news about anime. The website is built with Next.js, React and Sanity Cms.",
     image: "/alxnstore.png",
     url: "https://www.alxnstore.shop/",
   },
   {
     title: "Adelin Visuals Photography",
-    badges: ["Next.js", "React", "TailwindCSS", "Email.js", "Swiper.js"],
+    description:
+      "Adelin Visuals Photography is a website that showcases the work of a photographer. The website is built with Next.js and React.",
     image: "/adelinv.png",
     url: "https://www.adelinvisuals.art/",
+  },
+];
+
+export const skills = [
+  {
+    image: "/skills-icons/react.svg",
+    name: "React",
+  },
+  {
+    image: "/skills-icons/nextjs.svg",
+    name: "Next.js",
+  },
+  {
+    image: "/skills-icons/js.svg",
+    name: "JavaScript",
+  },
+  {
+    image: "/skills-icons/ts.svg",
+    name: "TypeScript",
+  },
+  {
+    image: "/skills-icons/tailwind.svg",
+    name: "TailwindCSS",
+  },
+  {
+    image: "/skills-icons/css.svg",
+    name: "CSS",
+  },
+  {
+    image: "/skills-icons/html.svg",
+    name: "HTML",
+  },
+  {
+    image: "/skills-icons/mongo.svg",
+    name: "MongoDB",
+  },
+  {
+    image: "/skills-icons/shadcn.svg",
+    name: "Prisma",
+  },
+  {
+    image: "/skills-icons/sql.svg",
+    name: "PostgreSQL",
+  },
+  {
+    image: "/skills-icons/prisma.svg",
+    name: "SQL",
+  },
+  {
+    image: "/skills-icons/postg.svg",
+    name: "Shadcn-UI",
+  },
+  {
+    image: "/skills-icons/sanity.svg",
+    name: "Sanity CMS",
+  },
+  {
+    image: "/skills-icons/mui.svg",
+    name: "Bootstrap",
+  },
+  {
+    image: "/skills-icons/bootstrap.svg",
+    name: "Zustand",
+  },
+  {
+    image: "/skills-icons/zustand.svg",
+    name: "Material-UI",
+  },
+  {
+    image: "/skills-icons/chakra.svg",
+    name: "Chakra-UI",
+  },
+  {
+    image: "/skills-icons/supa.svg",
+    name: "Supabase",
+  },
+  {
+    image: "/skills-icons/clerk.svg",
+    name: "Clerk Auth",
+  },
+  {
+    image: "/skills-icons/next-auth.svg",
+    name: "NextAuth",
   },
 ];
