@@ -11,6 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@hookform/resolvers": "^3.4.2",
+    "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-separator": "^1.1.0",
@@ -19,7 +20,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.30",
     "lucide-react": "^0.379.0",
-    "next": "14.2.3",
+    "next": "^14.2.13",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-awesome-reveal": "^4.2.11",
@@ -28,6 +29,7 @@
     "react-icon-cloud": "^4.1.4",
     "react-icons": "^5.2.1",
     "react-particles": "^2.12.2",
+    "react-scrollama": "^2.3.3",
     "react-slick": "^0.30.2",
     "react-toastify": "^10.0.5",
     "slick-carousel": "^1.8.1",
@@ -35,6 +37,7 @@
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
     "tsparticles-slim": "^2.12.0",
+    "vaul": "^1.0.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
