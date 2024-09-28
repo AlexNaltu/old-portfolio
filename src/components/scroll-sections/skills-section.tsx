@@ -5,7 +5,10 @@ import React from "react";
 const SkillsSection = () => {
   return (
     <>
-      <h1 className="uppercase text-xl font-black md:text-2xl lg:text-4xl mb-2">
+      <h1
+        className="uppercase text-xl font-black md:text-2xl lg:text-4xl mb-2 scroll-offset"
+        id="skills"
+      >
         Technologies I used
       </h1>
       <div className="bg-gradient-to-l from-neutral-950 from-50% to-white to-100% w-full h-2 mb-3" />

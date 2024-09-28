@@ -7,7 +7,7 @@ import Wrapper from "../wrapper/wrapper";
 
 const Navbar = () => {
   return (
-    <div className="bg-white fixed w-full top-0 mb-24">
+    <div className="bg-white fixed w-full top-0 mb-24 z-50">
       <Wrapper>
         <nav className="flex items-center justify-between">
           <Link href="/">

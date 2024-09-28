@@ -70,20 +70,3 @@ const Sections = () => {
 };
 
 export default Sections;
-
-/**
- * 
- *  {[1, 2, 3, 4].map((_, stepIndex) => (
-          <Step data={stepIndex} key={stepIndex}>
-            <div
-              style={{
-                margin: "50vh 0",
-                opacity: currentStepIndex === stepIndex ? 1 : 0.2,
-              }}
-              className="text-white"
-            >
-              I'm a Scrollama Step of index {stepIndex}
-            </div>
-          </Step>
-        ))}
- */

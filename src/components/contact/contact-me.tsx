@@ -55,7 +55,7 @@ const Contact = () => {
         Contact me
       </h1>
       <div className="bg-gradient-to-l from-neutral-950 from-50% to-white to-100% w-full h-2 mb-6" />
-      <div className="flex justify-center ">
+      <div className="flex justify-center" id="contact">
         <Wrapper className="flex flex-col gap-4 lg:flex-row lg:justify-between w-full">
           <form
             className="max-w-lg lg:max-w-2xl flex flex-col gap-3"

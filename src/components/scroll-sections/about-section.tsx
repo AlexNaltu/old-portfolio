@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMeSection = () => {
   return (
-    <div>
+    <div id="about" className="scroll-offset">
       <h1 className="uppercase text-xl font-black md:text-2xl lg:text-4xl mb-2">
         About me
       </h1>

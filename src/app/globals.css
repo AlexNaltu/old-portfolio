@@ -73,3 +73,13 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: auto;
+  scrollbar-color: #af0000 #000000;
+}
+
+.scroll-offset {
+  scroll-margin-top: 200px;
+}

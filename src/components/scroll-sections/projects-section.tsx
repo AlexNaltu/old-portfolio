@@ -6,12 +6,12 @@ import React from "react";
 
 const ProjectsSection = () => {
   return (
-    <section className="flex flex-col gap-3" id="#projects">
+    <section className="flex flex-col gap-3 scroll-offset" id="projects">
       <h1 className="uppercase text-xl font-black md:text-2xl lg:text-4xl">
         Projects
       </h1>
       {websites.map((project, i) => (
-        <div key={i} className="bg-black p-2 md:flex">
+        <div key={i} className="bg-black p-2 md:flex gap-2">
           <div>
             <h2 className="text-xl">{project.title}</h2>
             <div className="bg-gradient-to-l from-black from-50% to-white to-100% w-full h-2" />
