@@ -103,6 +103,9 @@ const Contact = () => {
                   </span>
                 </>
               )}
+              <Button type="submit" className="w-full">
+                Send Message
+              </Button>
             </div>
           </form>
           <div>
