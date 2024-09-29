@@ -43,15 +43,15 @@ export const websites = [
   {
     title: "Alxn Store",
     description:
-      "Alxn Store is an e-commerce website that sells various products. For example T-shirts, Hoodies, and Sweatshirts. The website is built with Next.js, React and Sanity Cms.",
+      "Alxn Store is an e-commerce website that sells various products. For example T-shirts, Hoodies, and Sweatshirts. The website is built with Next.js, React, Clerk and Sanity Cms.",
     image: "/alxnstore.png",
     url: "https://www.alxnstore.shop/",
   },
   {
     title: "MyAnimeNews",
     description:
-      "MyAnimeNews is a website that displays the latest news about anime. The website is built with Next.js, React and Sanity Cms.",
-    image: "/alxnstore.png",
+      "MyAnimeNews is a website that displays the latest news about anime. The website is built with Next.js, React, Clerk and Sanity Cms.",
+    image: "/myanimenews.png",
     url: "https://www.alxnstore.shop/",
   },
   {
