@@ -25,7 +25,7 @@ const ProjectsSection = () => {
             <p className="md:mt-2">{project.description}</p>
             <Link
               href={project.url}
-              className="hidden md:block mt-3 font-black underline hover:text-red-800 transition-all duration-200 ease-in-out w-fit"
+              className="hidden md:block mt-3 font-black underline hover:text-blue-950 transition-all duration-200 ease-in-out w-fit"
               target="_blank"
             >
               Live Preview

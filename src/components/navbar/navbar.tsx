@@ -17,7 +17,7 @@ const Navbar = () => {
             {navLinks.map((link, i) => (
               <li
                 key={i}
-                className="font-black hover:text-red-800 transition-all duration-200 ease-in-out md:text-xl"
+                className="font-black hover:text-blue-950 transition-all duration-200 ease-in-out md:text-xl"
               >
                 <Link href={link.url}>{link.name}</Link>
               </li>
