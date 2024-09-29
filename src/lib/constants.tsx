@@ -52,7 +52,7 @@ export const websites = [
     description:
       "MyAnimeNews is a website that displays the latest news about anime. The website is built with Next.js, React, Clerk and Sanity Cms.",
     image: "/myanimenews.png",
-    url: "https://www.alxnstore.shop/",
+    url: "https://anime-website-lac.vercel.app/",
   },
   {
     title: "Adelin Visuals Photography",
@@ -69,7 +69,7 @@ export const skills = [
     name: "React",
   },
   {
-    image: "/skills-icons/nextjs.svg",
+    image: "/skills-icons/nextjs.png",
     name: "Next.js",
   },
   {
@@ -81,7 +81,7 @@ export const skills = [
     name: "TypeScript",
   },
   {
-    image: "/skills-icons/tailwind.svg",
+    image: "/skills-icons/tailwind.png",
     name: "TailwindCSS",
   },
   {
@@ -101,11 +101,11 @@ export const skills = [
     name: "Prisma",
   },
   {
-    image: "/skills-icons/sql.svg",
+    image: "/skills-icons/postgresql.svg",
     name: "PostgreSQL",
   },
   {
-    image: "/skills-icons/prisma.svg",
+    image: "/skills-icons/sql.png",
     name: "SQL",
   },
   {
@@ -143,5 +143,13 @@ export const skills = [
   {
     image: "/skills-icons/next-auth.svg",
     name: "NextAuth",
+  },
+  {
+    image: "/skills-icons/node.svg",
+    name: "NodeJs",
+  },
+  {
+    image: "/skills-icons/express.png",
+    name: "Express",
   },
 ];
