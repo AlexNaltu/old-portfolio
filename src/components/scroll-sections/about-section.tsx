@@ -14,8 +14,8 @@ const AboutMeSection = () => {
         development. In addition to my front-end skills, I have experience with
         Node.js and have worked with several back-end technologies. I’m a highly
         creative individual with a passion for exploring and learning new
-        things. I speak excellent English, decent German, and my mother language
-        is Romanian
+        things. I speak excellent English, German and my mother language is
+        Romanian
       </h2>
     </div>
   );
