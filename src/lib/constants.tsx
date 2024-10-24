@@ -69,6 +69,10 @@ export const skills = [
     name: "React",
   },
   {
+    image: "/skills-icons/angular.svg",
+    name: "Angular",
+  },
+  {
     image: "/skills-icons/nextjs.png",
     name: "Next.js",
   },
