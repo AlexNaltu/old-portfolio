@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Fira_Code } from "next/font/google";
+import { Fira_Code, Prompt } from "next/font/google";
 import "./globals.css";
 
-const inter = Fira_Code({ subsets: ["latin"], weight: "400" });
+const inter = Prompt({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Naltu Alexandru Portfolio",

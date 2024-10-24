@@ -23,12 +23,12 @@ const Sections = () => {
         <Step data={0}>
           <div
             style={{
-              margin: "20vh 0",
+              margin: "30vh 0",
               opacity: currentStepIndex === 0 ? 1 : 0.2,
             }}
             className="text-white"
           >
-            <ProjectsSection />
+            <AboutMeSection />
           </div>
         </Step>
         <Step data={1}>
@@ -39,7 +39,7 @@ const Sections = () => {
             }}
             className="text-white"
           >
-            <SkillsSection />
+            <ProjectsSection />
           </div>
         </Step>
         <Step data={2}>
@@ -50,7 +50,7 @@ const Sections = () => {
             }}
             className="text-white"
           >
-            <AboutMeSection />
+            <SkillsSection />
           </div>
         </Step>
         <Step data={3}>

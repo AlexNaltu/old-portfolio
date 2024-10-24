@@ -110,7 +110,7 @@ const Contact = () => {
           </form>
           <div>
             <p>alxnbusiness1@gmail.com</p>
-            <p>+49 243359 9143</p>
+            <p>+49 1515 7491907</p>
           </div>
         </Wrapper>
       </div>
