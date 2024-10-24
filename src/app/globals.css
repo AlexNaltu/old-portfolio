@@ -77,7 +77,7 @@
 html {
   scroll-behavior: smooth;
   scrollbar-width: auto;
-  scrollbar-color: #af0000 #000000;
+  scrollbar-color: #ffff #000000;
 }
 
 .scroll-offset {
