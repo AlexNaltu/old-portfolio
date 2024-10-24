@@ -45,7 +45,7 @@ export const websites = [
     description:
       "Alxn Store is an e-commerce website that sells various products. For example T-shirts, Hoodies, and Sweatshirts. The website is built with Next.js, React, Clerk and Sanity Cms.",
     image: "/alxnstore.png",
-    url: "https://www.alxnstore.shop/",
+    url: "https://alxnstore-nextjs-sanitycms.vercel.app/",
   },
   {
     title: "MyAnimeNews",
