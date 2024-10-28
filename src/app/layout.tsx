@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
-import { Fira_Code, Prompt } from "next/font/google";
+import {
+  Lora,
+  Merriweather,
+  Open_Sans,
+  Oswald,
+  Slabo_13px,
+} from "next/font/google";
 import "./globals.css";
 
-const inter = Prompt({ subsets: ["latin"], weight: "400" });
+const inter = Merriweather({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Naltu Alexandru Portfolio",
@@ -16,7 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-neutral-950`}>{children}</body>
+      <body className={`${inter.className} bg-neutral-950 custom-bg`}>
+        {children}
+      </body>
     </html>
   );
 }

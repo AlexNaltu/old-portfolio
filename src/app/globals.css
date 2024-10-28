@@ -83,3 +83,23 @@ html {
 .scroll-offset {
   scroll-margin-top: 200px;
 }
+
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #ff6200,
+    #ffc83c
+  ); /* Define your gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow-on-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.glow-on-hover:hover {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
+    0 0 10px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+  transform: scale(1.1);
+}

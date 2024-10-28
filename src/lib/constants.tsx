@@ -45,21 +45,27 @@ export const websites = [
     description:
       "Alxn Store is an e-commerce website that sells various products. For example T-shirts, Hoodies, and Sweatshirts. The website is built with Next.js, React, Clerk and Sanity Cms.",
     image: "/alxnstore.png",
-    url: "https://alxnstore-nextjs-sanitycms.vercel.app/",
+    webUrl: "https://alxnstore-nextjs-sanitycms.vercel.app/",
+    githubUrl: "",
+    technologies: ["Next.js", "React", "Clerk", "Sanity Cms"],
   },
   {
     title: "MyAnimeNews",
     description:
       "MyAnimeNews is a website that displays the latest news about anime. The website is built with Next.js, React, Clerk and Sanity Cms.",
     image: "/myanimenews.png",
-    url: "https://anime-website-lac.vercel.app/",
+    webUrl: "https://anime-website-lac.vercel.app/",
+    githubUrl: "",
+    technologies: ["Next.js", "React", "Clerk", "Sanity Cms"],
   },
   {
     title: "Adelin Visuals Photography",
     description:
       "Adelin Visuals Photography is a website that showcases the work of a photographer. The website is built with Next.js and React.",
     image: "/adelinv.png",
-    url: "https://www.adelinvisuals.art/",
+    webUrl: "https://www.adelinvisuals.art/",
+    githubUrl: "",
+    technologies: ["Next.js", "React"],
   },
 ];
 
@@ -101,10 +107,6 @@ export const skills = [
     name: "MongoDB",
   },
   {
-    image: "/skills-icons/shadcn.svg",
-    name: "Prisma",
-  },
-  {
     image: "/skills-icons/postgresql.svg",
     name: "PostgreSQL",
   },
@@ -114,7 +116,7 @@ export const skills = [
   },
   {
     image: "/skills-icons/shadcn.svg",
-    name: "Shadcn-UI",
+    name: "Prisma",
   },
   {
     image: "/skills-icons/sanity.svg",
